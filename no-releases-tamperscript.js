@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         GitHub Block Releases
 // @namespace    https://github.com/saya-rbt
-// @version      0.1
-// @description  Blocks the annoying releases on GitHub home
+// @version      1.0
+// @description  Hides the releases on GitHub's homepage
 // @author       Saya @saya-rbt
 // @match        https://github.com/
 // @icon         https://www.google.com/s2/favicons?domain=github.com
