@@ -9,7 +9,7 @@ So I decided take matters into my own hands and make this script to hide all the
 
 ## Usage
 
-1. Install Tampermonkey
+1. Install [Tampermonkey](https://www.tampermonkey.net/)
 1. Copy the source of [no-releases-tamperscript.js](./no-releases-tamperscript.js)
 1. Open Tampermonkey in your browser and click the Add Script tab (icon with a plus symbol)
 1. Paste the source into the script window and hit save
