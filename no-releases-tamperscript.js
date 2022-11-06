@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Block Releases
 // @namespace    https://github.com/saya-rbt
-// @version      1.0
+// @version      1.1
 // @description  Hides the releases on GitHub's homepage
 // @author       Saya @saya-rbt
 // @match        https://github.com/
@@ -24,8 +24,16 @@
         // Use traditional 'for loops' for IE 11
         for(const mutation of mutationsList) {
             if (mutation.type === 'childList') {
+                // Individual releases
                 var divs = document.getElementsByClassName("release");
                 for(var i = 0; i < divs.length; i++) {
+                    divs[i].style.visibility = 'hidden';
+                    divs[i].style.height = '0';
+                }
+                // When several releases are collapsed into a single div
+                // "wtf is the 'classes' attribute" idfk ask microsoft
+                divs = document.querySelectorAll("div[classes]");
+                for(i = 0; i < divs.length; i++) {
                     divs[i].style.visibility = 'hidden';
                     divs[i].style.height = '0';
                 }
