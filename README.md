@@ -1,4 +1,7 @@
 # GitHub Home Block Releases
+# DEPRECATED: As of September 2023, the new feed allows filtering which blocks releases. Thanks for that!
+# This repo will therefore be archived.
+---
 ## A simple Tampermonkey script to hide the releases on GitHub's homepage
 
 GitHub decided to show every repo you've starred's releases on homepage, cluttering it a lot and **without any option to disable it.** It's not like the option to enable it didn't exist either, it was an opt-in functionality in the Watch menu.
